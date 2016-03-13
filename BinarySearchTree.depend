@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1457894479 source:c:\zen\c_examples\binarysearchtree\insert.c
+	<stdio.h>
+	<stdlib.h>
+	"bst.h"
+
+1457896604 source:c:\zen\c_examples\binarysearchtree\main.c
+	<stdio.h>
+	<stdlib.h>
+	"bst.h"
+
+1457895547 c:\zen\c_examples\binarysearchtree\bst.h
+
+1457894840 source:c:\zen\c_examples\binarysearchtree\view.c
+	<stdio.h>
+	<stdlib.h>
+	"bst.h"
+
+1457896595 source:c:\zen\c_examples\binarysearchtree\search.c
+	<stdio.h>
+	<stdlib.h>
+	"bst.h"
+
