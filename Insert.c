@@ -6,6 +6,7 @@
 struct Node* Insert(struct Node* root,int d){
 
     //Important Lesson Here
+
     struct Node* newnode =(struct Node*) malloc(sizeof(struct Node));
     newnode->data=d;
     newnode->left=NULL;

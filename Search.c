@@ -29,7 +29,6 @@ void Search(struct Node* head,int n)
                 return;
             }
         }
-
     }
     }
 

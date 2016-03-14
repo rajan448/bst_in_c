@@ -7,22 +7,29 @@ int main()
 {
     head=NULL;
 
-    int a;
+    int a,i,n;
 
-    head=Insert(head,10);
-    head=Insert(head,8);
-    head=Insert(head,6);
-    head=Insert(head,9);
-    head=Insert(head,12);
-    head=Insert(head,11);
-    head=Insert(head,13);
+    printf("Enter Number of elements to enter:");
+    scanf("%d",&n);
+    printf("Enter Elements:\n");
 
-    printf("Enter Number to Search in Tree:");
+    for(i=0;i<n;i++){
+        scanf("%d",&a);
+        head=Insert(head,a);
+    }
+
+    printf("\nInorder Traversal:\n");
     Inorder(head);
+
+    printf("\nPreorder Traversal:\n");
+    Preorder(head);
+
+    printf("\nPostorder Traversal:\n");
+    Postorder(head);
+
+    printf("\n Enter number to Search:\n");
     scanf("%d",&a);
     Search(head,a);
-
-    View(head);
 
     return 0;
 }

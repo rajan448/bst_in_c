@@ -1,27 +1,36 @@
 # depslib dependency file v1.0
-1457927142 source:c:\zen\c_examples\binarysearchtree\insert.c
+1457957381 source:c:\zen\c_examples\binarysearchtree\insert.c
 	<stdio.h>
 	<stdlib.h>
 	"bst.h"
 
-1457957028 source:c:\zen\c_examples\binarysearchtree\main.c
+1457959750 source:c:\zen\c_examples\binarysearchtree\main.c
 	<stdio.h>
 	<stdlib.h>
 	"bst.h"
 
-1457956531 c:\zen\c_examples\binarysearchtree\bst.h
+1457958566 c:\zen\c_examples\binarysearchtree\bst.h
 
 1457894840 source:c:\zen\c_examples\binarysearchtree\view.c
 	<stdio.h>
 	<stdlib.h>
 	"bst.h"
 
-1457927144 source:c:\zen\c_examples\binarysearchtree\search.c
+1457959153 source:c:\zen\c_examples\binarysearchtree\search.c
 	<stdio.h>
 	<stdlib.h>
 	"bst.h"
 
-1457956870 source:c:\zen\c_examples\binarysearchtree\inorder.c
+1457957908 source:c:\zen\c_examples\binarysearchtree\inorder.c
+	<stdio.h>
+	<stdlib.h>
+	"bst.h"
+
+1457958784 source:c:\zen\c_examples\binarysearchtree\preorder.c
+	<stdio.h>
+	"bst.h"
+
+1457959710 source:c:\zen\c_examples\binarysearchtree\traversals.c
 	<stdio.h>
 	<stdlib.h>
 	"bst.h"
