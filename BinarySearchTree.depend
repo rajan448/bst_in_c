@@ -4,19 +4,19 @@
 	<stdlib.h>
 	"bst.h"
 
-1457959750 source:c:\zen\c_examples\binarysearchtree\main.c
+1457981939 source:c:\zen\c_examples\binarysearchtree\main.c
 	<stdio.h>
 	<stdlib.h>
 	"bst.h"
 
-1457960181 c:\zen\c_examples\binarysearchtree\bst.h
+1457982668 c:\zen\c_examples\binarysearchtree\bst.h
 
 1457894840 source:c:\zen\c_examples\binarysearchtree\view.c
 	<stdio.h>
 	<stdlib.h>
 	"bst.h"
 
-1457959153 source:c:\zen\c_examples\binarysearchtree\search.c
+1457982029 source:c:\zen\c_examples\binarysearchtree\search.c
 	<stdio.h>
 	<stdlib.h>
 	"bst.h"
@@ -31,6 +31,20 @@
 	"bst.h"
 
 1457959958 source:c:\zen\c_examples\binarysearchtree\traversals.c
+	<stdio.h>
+	<stdlib.h>
+	"bst.h"
+
+1457982128 source:c:\zen\c_examples\binarysearchtree\maxmin.c
+	<stdio.h>
+	"bst.h"
+
+1457980559 source:c:\zen\c_examples\binarysearchtree\deletenode.c
+	<stdio.h>
+	<stdlib.h>
+	"bst.h"
+
+1457982623 source:c:\zen\c_examples\binarysearchtree\findsuccessor.c
 	<stdio.h>
 	<stdlib.h>
 	"bst.h"

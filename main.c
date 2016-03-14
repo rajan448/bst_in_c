@@ -6,7 +6,8 @@
 int main()
 {
     head=NULL;
-
+    struct Node* current;
+    /*
     int a,i,n;
 
     printf("Enter Number of elements to enter:");
@@ -27,9 +28,19 @@ int main()
     printf("\nPostorder Traversal:\n");
     Postorder(head);
 
-    printf("\n Enter number to Search:\n");
+    FindMax(head);
+    FindMin(head);
+
+    printf("\nEnter number to Search:\n");
     scanf("%d",&a);
     Search(head,a);
+*/
 
+    head=Insert(head,5);
+    head=Insert(head,3);head=Insert(head,1);head=Insert(head,6);
+
+    current=FindSuccesor(head,5);
+    if(current==NULL) printf("NULL");
+    else printf("%d",current->data);
     return 0;
 }

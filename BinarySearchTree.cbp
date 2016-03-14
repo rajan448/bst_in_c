@@ -37,11 +37,11 @@
 		<Unit filename="Search.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="View.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="bst.h" />
 		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="traversals.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions>

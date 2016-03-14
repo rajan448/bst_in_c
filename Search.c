@@ -29,7 +29,27 @@ void Search(struct Node* head,int n)
                 return;
             }
         }
+      }
     }
-    }
+}
 
+
+//SIMPLE RECURSIVE FUNCTION RETURNING POINTER TO NODE CONTAINING N
+
+struct Node* FindNode(struct Node* head,int n)
+{
+    if ((head==NULL) ||(head->data==n))
+    {
+        return head;
+    }
+    else{
+        if(n < head->data)
+        {
+            return FindNode(head->left,n);
+        }
+        else
+        {
+            return FindNode(head->right,n);
+        }
+    }
 }
