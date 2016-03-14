@@ -10,7 +10,7 @@ void Search(struct Node* head,int n)
         return;
     }
     else{
-    //Important Lesson Here
+
     struct Node* temp=head;
     while(temp!=NULL)
     {
@@ -21,11 +21,11 @@ void Search(struct Node* head,int n)
         }
         else{
             if(n < temp->data){
-                Search(temp->left,n);
+                Search(temp->left,n); //recursive call to Search
                 return;
             }
             else{
-                Search(temp->right,n);
+                Search(temp->right,n); //recursive call to Search
                 return;
             }
         }
