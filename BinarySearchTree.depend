@@ -9,7 +9,7 @@
 	<stdlib.h>
 	"bst.h"
 
-1457958566 c:\zen\c_examples\binarysearchtree\bst.h
+1457960181 c:\zen\c_examples\binarysearchtree\bst.h
 
 1457894840 source:c:\zen\c_examples\binarysearchtree\view.c
 	<stdio.h>
@@ -30,7 +30,7 @@
 	<stdio.h>
 	"bst.h"
 
-1457959710 source:c:\zen\c_examples\binarysearchtree\traversals.c
+1457959958 source:c:\zen\c_examples\binarysearchtree\traversals.c
 	<stdio.h>
 	<stdlib.h>
 	"bst.h"
