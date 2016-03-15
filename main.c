@@ -39,7 +39,7 @@ int main()
     head=Insert(head,5);
     head=Insert(head,3);head=Insert(head,1);head=Insert(head,6);
 
-    current=FindSuccesor(head,5);
+    current=FindSuccesor(head,6);
     if(current==NULL) printf("NULL");
     else printf("%d",current->data);
     return 0;

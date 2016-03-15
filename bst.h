@@ -16,7 +16,7 @@ void Postorder(struct Node* head);
 struct Node* FindMax(struct Node* head);
 struct Node* FindMin(struct Node* head);
 
-void DeleteNode(struct Node* head,int data);
+struct Node* DeleteNode(struct Node* head,int data);
 
 struct Node* FindSuccesor(struct Node* head,int data);
 struct Node* FindNode(struct Node* head,int data);
