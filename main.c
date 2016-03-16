@@ -7,7 +7,7 @@ int main()
 {
     head=NULL;
     struct Node* current;
-    /*
+/*
     int a,i,n;
 
     printf("Enter Number of elements to enter:");
@@ -18,6 +18,14 @@ int main()
         scanf("%d",&a);
         head=Insert(head,a);
     }
+*/
+    head=Insert(head,5);
+    head=Insert(head,3);
+    head=Insert(head,1);
+    head=Insert(head,6);
+    head=Insert(head,12);
+    head=Insert(head,4);
+    head=Insert(head,7);
 
     printf("\nInorder Traversal:\n");
     Inorder(head);
@@ -31,16 +39,19 @@ int main()
     FindMax(head);
     FindMin(head);
 
-    printf("\nEnter number to Search:\n");
-    scanf("%d",&a);
-    Search(head,a);
-*/
+    //printf("\nEnter number to Search:\n");
+    //scanf("%d",&a);
+    //Search(head,a);
 
-    head=Insert(head,5);
-    head=Insert(head,3);head=Insert(head,1);head=Insert(head,6);
-
-    current=FindSuccesor(head,6);
+    current=FindSuccesor(head,3);
     if(current==NULL) printf("NULL");
     else printf("%d",current->data);
+
+    head=DeleteNode(head,5);
+
+    printf("\nnew head:%d",head->data);
+
+    printf("\nInorder Traversal:\n");
+    Inorder(head);
     return 0;
 }

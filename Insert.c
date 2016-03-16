@@ -4,16 +4,8 @@
 #include "bst.h"
 
 struct Node* Insert(struct Node* root,int d){
-
-    //Important Lesson Here
-
-    struct Node* newnode =(struct Node*) malloc(sizeof(struct Node));
-    newnode->data=d;
-    newnode->left=NULL;
-    newnode->right=NULL;
-
     if(root==NULL){
-        root=newnode;
+        root=getNewNode(d);
         return root;
     }
 
@@ -27,4 +19,16 @@ struct Node* Insert(struct Node* root,int d){
         return root;
     }
 
+}
+
+struct Node* getNewNode(int data)
+{
+    //Important Lesson Here
+
+    struct Node* newnode =(struct Node*) malloc(sizeof(struct Node));
+    newnode->data=data;
+    newnode->left=NULL;
+    newnode->right=NULL;
+
+    return newnode;
 }

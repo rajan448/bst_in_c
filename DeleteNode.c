@@ -5,18 +5,37 @@
 
 struct Node* DeleteNode(struct Node* head,int data)
 {
-    struct Node* current=FindNode(head,data);
+    if(head==NULL) return head;
 
-    if(current==NULL) return head;
-
-    if((current->right == NULL) && (current->right == NULL))
+    if(data < head->data)
     {
-        free(current);
-        head=NULL;
+        head->left = DeleteNode(head->left,data);
     }
-    else if(current->left ==NULL)
+    else if(data > head->data){
+        head->right = DeleteNode(head->right,data);
+    }
+    else
     {
+        /*Correct since it is negativity test it is evident that
+        if there is no left child and also data exists in node than it
+        must have either no child or only right child..Trajan*/
+        if(head->left == NULL)
+        {
+            struct Node* temp=head->right;
+            free(head);
+            return temp;
+        }
 
+        else if(head->right==NULL)
+        {
+            struct Node* temp=head->left;
+            free(head);
+            return temp;
+        }
+
+        struct Node* temp=FindSuccesor(head,data);
+        head ->data = temp->data;
+        head->right=DeleteNode(head->right,temp->data);
     }
     return head;
 }

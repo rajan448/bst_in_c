@@ -6,6 +6,7 @@ struct Node{
 
 struct Node* head;
 
+struct Node* getNewNode(int data);
 struct Node* Insert(struct Node* head,int data);
 void Search(struct Node* head,int n);
 
@@ -15,6 +16,7 @@ void Postorder(struct Node* head);
 
 struct Node* FindMax(struct Node* head);
 struct Node* FindMin(struct Node* head);
+
 
 struct Node* DeleteNode(struct Node* head,int data);
 
