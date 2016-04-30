@@ -18,7 +18,8 @@ struct Node* DeleteNode(struct Node* head,int data)
     {
         /*Correct since it is negativity test it is evident that
         if there is no left child and also data exists in node than it
-        must have either no child or only right child..Trajan*/
+        must have either no child or only right child..rajan*/
+
         if(head->left == NULL)
         {
             struct Node* temp=head->right;

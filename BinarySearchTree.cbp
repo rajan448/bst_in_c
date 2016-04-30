@@ -31,26 +31,11 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="DeleteNode.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="FindSuccessor.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="Insert.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="Search.c">
+		<Unit filename="bst.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="bst.h" />
 		<Unit filename="main.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="maxmin.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="traversals.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions>

@@ -4,7 +4,7 @@
 	<stdlib.h>
 	"bst.h"
 
-1458107175 source:c:\zen\c_examples\binarysearchtree\main.c
+1458107188 source:c:\zen\c_examples\binarysearchtree\main.c
 	<stdio.h>
 	<stdlib.h>
 	"bst.h"
@@ -39,12 +39,17 @@
 	<stdio.h>
 	"bst.h"
 
-1458106766 source:c:\zen\c_examples\binarysearchtree\deletenode.c
+1459827835 source:c:\zen\c_examples\binarysearchtree\deletenode.c
 	<stdio.h>
 	<stdlib.h>
 	"bst.h"
 
-1457982623 source:c:\zen\c_examples\binarysearchtree\findsuccessor.c
+1459477087 source:c:\zen\c_examples\binarysearchtree\findsuccessor.c
+	<stdio.h>
+	<stdlib.h>
+	"bst.h"
+
+1460356103 source:c:\zen\c_examples\binarysearchtree\bst.c
 	<stdio.h>
 	<stdlib.h>
 	"bst.h"
